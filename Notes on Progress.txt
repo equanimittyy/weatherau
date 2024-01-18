@@ -1,9 +1,28 @@
+It is important to establish a basic goal. This goal will be followed for the statistical analysis.
+
+[Victorian Locations: Ballarat, Bendigo, Dartmoor, Melbourne, MelbourneAirport, Mildura, Nhil, Portland, Richmond, Sale, Watsonia)
+
+Goal 1: Identify, for the records found within Victoria, the times/dates at which rainfall were the highest,
+and, at what temperature rainfall is most likely to fall.
+
+Goal 2: Identify which state has the highest accumlative rainfall each year.
+
+Goal 3: Identify possible relationships between rainfall amount to humidity and atmospheric pressure.
+
+Goal 4: Update the GitHub page description to show results, and discuss limitations and what was learnt. (Reflection)
+
+==================================
+Notes:
+
 Initial setting up Git, and GitHub.
 - Proceeded with no particular hiccups.
 
-Statistical Analysis of Weather Data in PowerBI
+GOAL 1: Identifying Victorian Rainfall data and basic statistical analysis.
 - Successfully imported data (.csv format) into PowerBI, however PowerBI picked up on some errors with dataset. Likely relating to formatting issues of data.
 - Therefore, analysis of data will not be possible at this stage given differences in data types, as some columns are stored as Text (and I require the dataset to be numerical in order to calculate formulas). It seems a conversion in PowerBI doesn't seem to work.
 - Loading into MySQL to attempt to data clean.
 - Upon loading into MySQL and changing the connection from PowerBI to the MySQL localhost server instead of direct to the .csv, it seemed to have fixed a majority of formatting/data type issues.
 - Will keep an eye out and investigate further but for now will presently analyse data as is.
+- Noted that issue with data types still persisted as there were some missing records in the weather station data. Upon closer inspection, it seemed that (based on a data point count) records for rainfall data were implemented during the 2008 and 2017 period.
+	- Accordingly, there were some rows in the Rainfall data that were listed as text "NA", which were required to be resolved. I could have used SQL to rectify the issue, but it was a lighterweight issue that was rectified in PowerQuery. I replaced all NA values with null to represent missing data.
+- Data type issue resolved for Rainfall data. Column data type changed to numerical decimal numbers.
