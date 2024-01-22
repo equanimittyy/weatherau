@@ -1,6 +1,14 @@
 It is important to establish a basic goal. This goal will be followed for the statistical analysis.
 
-[Victorian Locations: Ballarat, Bendigo, Dartmoor, Melbourne, MelbourneAirport, Mildura, Nhil, Portland, Richmond, Sale, Watsonia)
+[VIC Locations: Ballarat, Bendigo, Dartmoor, Melbourne, MelbourneAirport, Mildura, Nhil, Portland, Richmond, Sale, Watsonia]
+[WA Locations: Albany, PearceRAAF, Perth, PerthAirport, SalmonGums, Walpole, Witchcliffe]
+[SA Locations: Adelaide, Mount Gambier, Nuriootpa, Woomera]
+[NT Locations: Alice Springs, Darwin, Katherine, Uluru]
+[NSW Locations: Badgerys Creek, Cobar, Coffs Harbour, Moree, Mount Ginini, Newcastle, Norah Head, Penrith, Sydney, SydneyAirport, WaggaWagga, Williamtown, Wollongong, Albury]
+[QLD Locations: Cairns, Gold Coast, Townsville, Brisbane]
+[ACT Locations: Canberra, Tuggeranong]
+[TAS Locations: Hobart, Launceston]
+
 
 Goal 1: Identify, for the records found within Victoria, the times/dates at which rainfall were the highest,
 and, at what temperature rainfall is most likely to fall.
@@ -26,3 +34,8 @@ GOAL 1: Identifying Victorian Rainfall data and basic statistical analysis.
 - Noted that issue with data types still persisted as there were some missing records in the weather station data. Upon closer inspection, it seemed that (based on a data point count) records for rainfall data were implemented during the 2008 and 2017 period.
 	- Accordingly, there were some rows in the Rainfall data that were listed as text "NA", which were required to be resolved. I could have used SQL to rectify the issue, but it was a lighterweight issue that was rectified in PowerQuery. I replaced all NA values with null to represent missing data.
 - Data type issue resolved for Rainfall data. Column data type changed to numerical decimal numbers.
+- Successfully displayed average rainfall records over entire 2008-2017 period. Successfully identified average rainfall figures, maximal figure and date figure with Visual filters.
+- Confidence interval bounds were established to determine in what range rainfall is likely to occur to a 95% confidence level.
+
+GOAL 2:
+- Identifying which state had the highest accumalated rainfall requires modifying the "State" column.
