@@ -39,3 +39,13 @@ GOAL 1: Identifying Victorian Rainfall data and basic statistical analysis.
 
 GOAL 2:
 - Identifying which state had the highest accumalated rainfall requires modifying the "State" column.
+- Basic overview completed identifying highest rainfall state.
+- Utilised visual filters to identify highest rainfall states by year
+
+GOAL 3:
+- Noted a significant amount of missing data points regarding atmospheric pressure. Perhaps this is related to locational limitations or equipment limitations?
+- Summarised the data of rainfall against humidity and pressure. Noted that there was a normal distribution of Pressure to Rainfall events and right-skewed distribution of Humidity to Rainfall events.
+- Created datapoint and count of day summary buttons.
+
+GOAL 4:
+- Updated GitHub and discussed findings, limitations and reflections. END.
