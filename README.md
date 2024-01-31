@@ -14,6 +14,7 @@ Data was sourced from Kaggle via the following link:
 https://www.kaggle.com/datasets/arunavakrchakraborty/australia-weather-data
 
 ## Analysis and Findings
+### Victorian Rainfall
 Analysis of weather data sourced from Kaggle identified that, within Victoria, rainfall averaged around 1.73mm between the observation period of 2007 to 2017.
 
 Further, a maxmimum of 51.62mm of average rainfall (calculated by day) was identified on the 5th of February 2011.
@@ -29,6 +30,7 @@ Using a confidence level of 95% (i.e. a z value of 1.96), population size and me
 
 ![image](https://github.com/equanimittyy/weatherau/assets/104692345/1622d1f7-2f71-4cca-9978-acc31ef5366d)
 
+### State Accumalative Rainfall
 The second goal was to identify, by state, which state had the highest accumalative rainfall for each year. The methedology to obtain these results entailed splitting each weather station locations by state, and summing the total rainfall based on year filters. Interestingly, it is important to note that there was an uneven distribution of weather stations per state:
 
 **Weather Station Count**
@@ -53,7 +55,7 @@ Noting the above, the results for accumalative rainfall were as follows:
 
 ![image](https://github.com/equanimittyy/weatherau/assets/104692345/ab8a0b8d-6b76-4b60-a0eb-48015825cdca)
 
-
+### Rainfall, Humidity and Pressure Relationships
 Thirdly and lastly, an analysis regarding rainfall, humidity and atmospheric pressure figures was made to understand and identify how these indicators may be related each other and ascertain any patterns, if any. There was some expected differences between the humidity and atmospheric measures at 9am and 3pm, though generally, the relationship between rainfall and these measures stayed similar despite the time changes. The relationship between rainfall and pressure was found to be normally distributed, whilst the relationship between rainfall and humidity was found to be a weak, negatively skewed distribution:
 
 **Distribution with distinct datapoints**
