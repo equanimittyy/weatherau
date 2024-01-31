@@ -75,6 +75,8 @@ There are a number of limitations regarding the analysis and the data set used. 
 - and that the source of the data is reliable. Whilst the Bureau of Meteorology is a government sponsered organisation and therefore deemed reliable, access to the data was through Kaggle, which does not necessitate reliability.
 
 ### Completeness of Data and Qualitative Evaluation
+Refering to the dataset itself, there are some limitations to be considered when assessing the comprehensiveness of this analytical project:
+- Starting in 2007, the data set only includes data from Canberra. Accordingly, this explains why the results for most accumalative rainfall in 2007 was assigned to the ACT (as data was not available for other states). Following this trend, it seems as the years go on, 
 
 ## Reflection
 
