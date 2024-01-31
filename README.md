@@ -67,7 +67,9 @@ _(This is to identify the frequencies of rainfall relative to pressure and humid
 Accordingly, it is clear that there is a relationship between the occurence of rainfall relative to the atmospheric pressure and humidity of a given day with an ideal range for both humidity and pressure for which rainfall is most likely to occur.
 
 ## Limitations
-
+There are a number of limitations regarding the analysis and the data set used. For example, regarding the data set, there were a number of **assumptions** asserted:
+- That the data itself is entirely accurate and that the errors presented through measurement error are insignificant to the analysis.
+- That the source of the data is reliable. Whilst the Bureau of Meteorology is a government sponsered organisation and therefore deemed reliable, access to the data was through Kaggle, which does not necessitate reliability.
 
 ## Reflection
 
