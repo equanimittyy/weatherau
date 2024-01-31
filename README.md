@@ -76,7 +76,8 @@ There are a number of limitations regarding the analysis and the data set used. 
 
 ### Completeness of Data and Qualitative Evaluation
 Refering to the dataset itself, there are some limitations to be considered when assessing the comprehensiveness of this analytical project:
-- Starting in 2007, the data set only includes data from Canberra. Accordingly, this explains why the results for most accumalative rainfall in 2007 was assigned to the ACT (as data was not available for other states). Following this trend, it seems as the years go on, 
+- Starting in 2007, the data set only includes data from Canberra. Accordingly, this explains why the results for most accumalative rainfall in 2007 was assigned to the ACT (as data was not available for other states). Following this trend, it seems as the years go on, weather data for other locales in different states were being made available. One may hypothesize that weather recording stations were being gradually built in this period, or the data was only available after a certain period of time (or that the data was missing entirely as a limitation of the dataset).
+- Certain crucial figures were omitted for some datapoints. This relates to rainfall, humidity and pressure figures. 
 
 ## Reflection
 
