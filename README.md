@@ -53,6 +53,7 @@ Noting the above, the results for accumalative rainfall were as follows:
 
 ![image](https://github.com/equanimittyy/weatherau/assets/104692345/ab8a0b8d-6b76-4b60-a0eb-48015825cdca)
 
+
 Thirdly and lastly, an analysis regarding rainfall, humidity and atmospheric pressure figures was made to understand and identify how these indicators may be related each other and ascertain any patterns, if any. There was some expected differences between the humidity and atmospheric measures at 9am and 3pm, though generally, the relationship between rainfall and these measures stayed similar despite the time changes. The relationship between rainfall and pressure was found to be normally distributed, whilst the relationship between rainfall and humidity was found to be a weak, negatively skewed distribution:
 
 **Distribution with distinct datapoints**
