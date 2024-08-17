@@ -1,3 +1,4 @@
+![Static Badge](https://img.shields.io/badge/PowerBI-blue)
 # weatherau
 A basic statistical analysis of weather data in PowerBI. This exercise was intended as a self-directed introduction into PowerBI's DAX and MySQL in order to further technical abilities and improve familiarity with MS PowerBI and MySQL.
 
